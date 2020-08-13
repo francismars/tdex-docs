@@ -1,0 +1,655 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Daemon · TDEX Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="tdex-daemon.html" />
+    
+    
+    <link rel="prev" href="provider.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Trader</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="trader.html">
+            
+                <a href="trader.html">
+            
+                    
+                    Get started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="tdex-cli.html">
+            
+                <a href="tdex-cli.html">
+            
+                    
+                    CLI
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="tdex-cli.html">
+            
+                <a href="tdex-cli.html#install">
+            
+                    
+                    Install
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="tdex-cli.html">
+            
+                <a href="tdex-cli.html#commands">
+            
+                    
+                    Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="tdex-sdk.html">
+            
+                <a href="tdex-sdk.html">
+            
+                    
+                    SDK
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="tdex-sdk.html">
+            
+                <a href="tdex-sdk.html#javascript">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="tdex-sdk.html">
+            
+                <a href="tdex-sdk.html#python">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="tdex-sdk.html">
+            
+                <a href="tdex-sdk.html#go">
+            
+                    
+                    Go
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="tdex-sdk.html">
+            
+                <a href="tdex-sdk.html#rust">
+            
+                    
+                    Rust
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" >
+            
+                <span>
+            
+                    
+                    Mobile App (Coming soon)
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Liquidity Provider</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="provider.html">
+            
+                <a href="provider.html">
+            
+                    
+                    Get started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2" data-path="tdex-daemon.html">
+            
+                <a href="tdex-daemon.html">
+            
+                    
+                    Daemon
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="tdex-daemon.html">
+            
+                <a href="tdex-daemon.html#overview">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="tdex-daemon.html">
+            
+                <a href="tdex-daemon.html#data-directory">
+            
+                    
+                    Data Directory
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.3" data-path="tdex-daemon.html">
+            
+                <a href="tdex-daemon.html#run-with-docker">
+            
+                    
+                    Run with Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.4" data-path="tdex-daemon.html">
+            
+                <a href="tdex-daemon.html#run-standalone">
+            
+                    
+                    Run standalone
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.5" data-path="tdex-daemon.html">
+            
+                <a href="tdex-daemon.html#available-options">
+            
+                    
+                    Available Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.6" data-path="tdex-daemon.html">
+            
+                <a href="tdex-daemon.html#deposit-funds">
+            
+                    
+                    Deposit funds
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="tdex-daemon-browser.html">
+            
+                <a href="tdex-daemon-browser.html">
+            
+                    
+                    Bonus: Browser Support
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Daemon</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="tdex-daemon">TDEX Daemon</h1>
+<p>Daemon implementation to execute automated market marking strategies on top of TDEX</p>
+<h2 id="overview">Overview</h2>
+<p>The daemon exposes two HTTP/2 gRPC interfaces, one meant to be public to be consumed by traders that fully implements <a href="https://github.com/tdex-network/tdex-specs/blob/master/04-trade-protocol.md" target="_blank">BOTD #4</a> called <strong>trader interface</strong> (by default on the port <strong>9945</strong>) and another private to be consumed by the liquidity provider for internal management called <strong>operator interface</strong> by default on the port <strong>9000</strong>).</p>
+<p>The daemon has an embedded Liquid wallet and sources blockchain information via a block explorer, at the time of writing, it supports only the <a href="https://github.com/blockstream/electrs" target="_blank">Blockstream fork of Electrs</a>. By default the daemon connects to <a href="https://blockstream.info/liquid/api/" target="_blank">Blockstream.info</a></p>
+<h2 id="data-directory">Data directory</h2>
+<p>The first time you run the daemon, it creates a <strong>data directory</strong> in <code>~/.tdex-daemon</code> and it is used to persist the wallet and the state in an embedded database. 
+It&apos;s possible to use a different path for the data directory exporting the environment variable <code>TDEX_DAEMON_PATH</code>. If you use docker you must mount the volume pointing to the different chosen path.</p>
+<p><strong>Be sure to backup this data directory to keep your markets running in case of hardware failures and to being able to have access of your funds.</strong></p>
+<h2 id="run">Run</h2>
+<p>Use one of the following methods to run a TDEX daemon on your machine:</p>
+<ul>
+<li><a href="#run-with-docker">Docker</a></li>
+<li><a href="#run-standalone">Standalone</a></li>
+</ul>
+<h2 id="run-with-docker">Run with Docker</h2>
+<h4 id="pull-from-docker-hub">Pull from Docker Hub</h4>
+<pre><code class="lang-sh">$ docker pull truedex/tdex-daemon
+</code></pre>
+<h4 id="generate-the-wallet">Generate the wallet</h4>
+<p>This step is needed only the first time to create the data directory, generate and encrypt the wallet and initialize the database. In the following command example the data directory is mounted into the host&apos;s current working directory in a folder called <code>data</code> that will be created if not exists. Bu sure to have write permissions.</p>
+<p>You can pass the <a href="#available-options">available options</a> to configure the daemon.</p>
+<pre><code class="lang-sh"><span class="hljs-comment"># Run on Liquid network</span>
+$ docker run --rm -v `<span class="hljs-built_in">pwd</span>`/data:/root/.tdex-daemon -it truedex/tdex-daemon
+
+<span class="hljs-comment"># Run on Liquid connecting to a different explorer</span>
+$ docker run --rm -v `<span class="hljs-built_in">pwd</span>`/data:/root/.tdex-daemon -it truedex/tdex-daemon --explorer http://localhost:3000
+
+<span class="hljs-comment"># Run on Regtest connecting to a different explorer.</span>
+$ docker run --rm -v `<span class="hljs-built_in">pwd</span>`/data:/root/.tdex-daemon -it truedex/tdex-daemon --regtest
+--explorer http://localhost:3000
+
+<span class="hljs-comment">## Run on Liquid and specify a default provider fee</span>
+$ docker run --rm -v `<span class="hljs-built_in">pwd</span>`/data:/root/.tdex-daemon -it truedex/tdex-daemon --fee 0.5
+</code></pre>
+<h4 id="encrypt-with-password">Encrypt with password</h4>
+<p>Once the command is launched you need to choose from the interactive shell <code>&#x25B8; Encrypted (AES-128-CBC)</code> and type in a password used to encrypt your wallet seed.</p>
+<p>It should look like something like the following:</p>
+<pre><code class="lang-sh">&#x2714; A new wallet will be created and persisted <span class="hljs-keyword">in</span> the chosen data directory. How <span class="hljs-keyword">do</span> you want to store your seed? &#x1F511; &#xB7; encrypted
+&#x2714; Type your password &#xB7; ********
+
+The mnemonic seed has been saved <span class="hljs-keyword">in</span> /root/data/vault.json.
+Be sure to make a safe backup of your data directory, it is the only way to restore your funds
+
+You must restart the daemon exporting the env variable TDEX_PASSWORD
+Shutting down...
+</code></pre>
+<p>The daemon will shut down itself and the container will be removed. Now it&apos;s time to run again, mapping the ports, mounting the data directory and passing the chosen password to let the daemon to automatically process incoming swaps. </p>
+<h4 id="start-as-daemon">Start as daemon</h4>
+<blockquote>
+<p>Put the right password instead of the <code>&lt;ChosenPassword&gt;</code> below.</p>
+</blockquote>
+<pre><code class="lang-sh">$ docker run <span class="hljs-_">-d</span> \
+    --name tdex \
+    --restart unless-stopped \
+    <span class="hljs-_">-e</span> TDEX_PASSWORD=&lt;ChosenPassword&gt; \
+    -p 9945:9945 -p 9000:9000 \
+    -v `<span class="hljs-built_in">pwd</span>`/data:/root/.tdex-daemon \
+    truedex/tdex-daemon
+</code></pre>
+<p><strong>NOTICE</strong> You should run this command in case you are restoring from a backup of your data directory.</p>
+<h3 id="check-the-logs">Check the Logs</h3>
+<pre><code class="lang-sh">$ docker logs tdex
+info: Trader gRPC server listening on 0.0.0.0:9945
+info: Operator gRPC server listening on 0.0.0.0:9000
+</code></pre>
+<p>Now you are ready to <a href="#deposit-funds">deposit funds</a> to create your fisrt market and start accepting incoming swaps. </p>
+<h2 id="run-standalone">Run standalone</h2>
+<h4 id="install">Install</h4>
+<ol>
+<li><p><a href="https://github.com/tdex-network/tdex-daemon-alpha/releases" target="_blank">Download the latest release for MacOS or Linux</a></p>
+</li>
+<li><p>Move into a folder in your PATH (eg. <code>/usr/bin</code> or <code>/usr/local/bin</code>) and rename it as <code>tdex-daemon</code></p>
+</li>
+<li><p>Give executable permission to it eg. <code>chmod a+x /path/to/daemon/tdex-daemon</code></p>
+</li>
+</ol>
+<h4 id="generate-the-wallet">Generate the wallet</h4>
+<pre><code class="lang-sh"><span class="hljs-comment"># Run on Liquid network</span>
+$ tdex-daemon
+
+<span class="hljs-comment"># Run on Liquid connecting to a different explorer</span>
+$ tdex-daemon --explorer http://localhost:3000
+
+<span class="hljs-comment"># Run on Regtest connecting to a different explorer.</span>
+$ tdex-daemon --regtest --explorer http://localhost:3000
+
+<span class="hljs-comment">## Run on Liquid and specify a default provider fee</span>
+$ tdex-daemon --fee 0.5
+</code></pre>
+<h4 id="encrypt-with-password">Encrypt with password</h4>
+<pre><code class="lang-sh">&#x2714; A new wallet will be created and persisted <span class="hljs-keyword">in</span> the chosen data directory. How <span class="hljs-keyword">do</span> you want to store your seed? &#x1F511; &#xB7; encrypted
+&#x2714; Type your password &#xB7; ********
+
+The mnemonic seed has been saved <span class="hljs-keyword">in</span> /root/data/vault.json.
+Be sure to make a safe backup of your data directory, it is the only way to restore your funds
+
+You must restart the daemon exporting the env variable TDEX_PASSWORD
+Shutting down...
+</code></pre>
+<h4 id="start">Start</h4>
+<blockquote>
+<p>Put the right password instead of the <code>&lt;ChosenPassword&gt;</code> below.</p>
+</blockquote>
+<pre><code class="lang-sh">$ <span class="hljs-built_in">export</span> TDEX_PASSWORD=&lt;ChosenPassword&gt;
+$ tdex-daemon
+info: Trader gRPC server listening on 0.0.0.0:9945
+info: Operator gRPC server listening on 0.0.0.0:9000
+</code></pre>
+<p><strong>NOTICE</strong> You should run this command in case you are restoring from a backup of your data directory.</p>
+<p>Now you are ready to <a href="#deposit-funds">deposit funds</a> to create your fisrt market and start accepting trades. </p>
+<h2 id="available-options">Available options</h2>
+<pre><code class="lang-sh">Options:
+  --help          Show <span class="hljs-built_in">help</span>                                            
+  --version       Show version number                                  
+  --regtest, -r   Run <span class="hljs-keyword">in</span> regtest mode                 
+  --fee, <span class="hljs-_">-f</span>       Specify a default fee to be used by markets
+  --explorer, <span class="hljs-_">-e</span>  Specify an Electrs HTTP REST endpoint
+</code></pre>
+<blockquote>
+<p>If a <code>config.json</code> file already exists in the chosen <code>datadir</code> given arguments will be discarded.</p>
+</blockquote>
+<h2 id="deposit-funds">Deposit funds</h2>
+<p>To start a market, you need to deposit two reserves of two <strong>Liquid assets</strong> for the <strong>Market</strong> you are providing liquidity for. 
+The initial ratio of the two amounts you deposit will represent the price of the first trade you accept in.
+From that point on, the <strong>market making strategy will self regulate the trading price</strong>. It follows the <em>constant product market-making</em>. In short, this model generates a full order-book based on an initial price for the market. Every transaction that occurs on this market will adjust the prices of the market accordingly. It&apos;s a basic supply and demand automated market making system. In the future, anyone could tweak and configure a different market making strategy.</p>
+<ol>
+<li>Download and install the <a href="tdex-cli.html"><code>tdex-cli</code></a> </li>
+<li><p>Connect the CLI to the daemon via the gRPC <strong>operator</strong> interface. </p>
+<pre><code class="lang-sh">$ tdex-cli operator connect localhost:9000
+</code></pre>
+<blockquote>
+<p>NOTICE: You need to deposit in a different address, called <strong>FEE ACCOUNT</strong>, an amount of LBTCs used by all markets to pay for transaction fees.</p>
+</blockquote>
+</li>
+<li><p>Get a deposit address from the FEE ACCOUNT and send some LBTC.</p>
+<pre><code>$ tdex-cli operator deposit --fee
+</code></pre></li>
+<li>Get a new deposit address from the MARKET ACCOUNT and send LBTC and another Liquid assets to automatically create and make a <code>market</code> tradable.<pre><code class="lang-sh">$ tdex-cli operator deposit
+</code></pre>
+</li>
+<li>Profit! </li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="provider.html" class="navigation navigation-prev " aria-label="Previous page: Get started">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="tdex-daemon.html#overview" class="navigation navigation-next " aria-label="Next page: Overview">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Daemon","level":"3.2","depth":1,"next":{"title":"Overview","level":"3.2.1","depth":2,"anchor":"#overview","path":"tdex-daemon.md","ref":"tdex-daemon.md#overview","articles":[]},"previous":{"title":"Get started","level":"3.1","depth":1,"path":"provider.md","ref":"provider.md","articles":[]},"dir":"ltr"},"config":{"plugins":["folding-menu","insert-logo"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"insert-logo":{"url":"./tdex-logo.png","style":"background: none; height:64px"},"folding-menu":{"animationDuration":400,"sticky":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"TDEX Documentation","gitbook":"*"},"file":{"path":"tdex-daemon.md","mtime":"2020-08-03T10:01:42.915Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-13T12:35:53.513Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-folding-menu/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
